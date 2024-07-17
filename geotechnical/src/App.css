@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+.navbar{
+  box-shadow: rgba(89, 211, 232, 0.25) 0px 50px 100px -20px, rgba(59, 160, 178, 0.3) 0px 30px 60px -30px, rgba(33, 184, 207, 0.35) 0px -2px 6px 0px;
+}
+.logo_div{
+  height: 95px;
+  width: 175px;
+}
+
+.logo{
+  height: 95px;
+  width: 175px;
+}
+
+.navbar-toggler{
+  border: none;
+}
+.nav-item .dropdown-menu{
+  margin-top: 5px;
+  width: 200px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.servies_extra{
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+.dropdown-menu .dropdown-item{
+  white-space: wrap;
+}
+.dropdown-menu .dropdown-item:hover{
+  background-color: rgb(62, 214, 214);
+  color: white;
+}
+
+.nav-item a:hover{
+  background-color: rgb(56, 134, 134);
+  color: white;
+  border-radius: 10px;
+}
+.mobile_logo{
+  display: none;
+}
+.humbug:active{
+  border: none;
+}
+#accordionFlushExample{
+  display: none;
+}
+
+@media (max-width:480px) {
+  .mobile_logo{
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(4, 114, 240);
+    font-weight: 600;
+    font-family: "Bona Nova SC", serif;
+  }
+  .offcanvas-title{
+    font-size: 30px;
+  }
+  #accordionFlushExample{
+    display: block;
+  }
+  .navbar-nav{
+    display: none;
+  }
+  .nodecor{
+    text-decoration: none;
+    color: black;
+  }
+  .nostyle .dropdown-item{
+    white-space: wrap;
+    border-bottom: 2px solid black;
+  }
+  .nostyle{
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+
+  }
+  .one_more{
+    padding: 16px 20px;
+  }
+  .nav-item a:hover{
+    color: black;
+    font-weight: 600;
+  }
+  #offcanvasWithBothOptions{
+    width: 70vw;
+  }
+
+  .nav-link{
+    font-size: 30px;
+  }
+  .logo{
+    display: none;
+  }
+  .logo_div{
+    display: none;
+  }
+  .mobile_log{
+    display: none;
+  }
+  
+}
+

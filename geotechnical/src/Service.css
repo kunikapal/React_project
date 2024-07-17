@@ -1,0 +1,50 @@
+.service_section{
+    margin-top: 100px;
+}
+
+.spt_section{
+    background-image: url(./assets/spt.webp);
+    background-size: cover;
+}
+.boring_section{
+    background-image: url(./assets/boring_soil.webp);
+    background-size: cover;
+}
+.rock_drilling_section{
+    background-image: url(./assets/rock_drilling.webp);
+    background-size: cover;
+}
+.dcpt_section{
+    background-image: url(./assets/dcpt.webp);
+    background-size: cover;
+}
+.field_invest_section{
+    background-image: url(./assets/field_invest.webp);
+    background-size: cover;
+}
+.load_test_section{
+    background-size: cover;
+    background-image: url(./assets/load_test.webp);
+}
+.land_survey_section{
+    background-image: url(./assets/Main1.jpg);
+    background-size: cover;
+
+}
+.piling_work_section{
+    background-size: cover;
+    background-image: url(./assets/piling_work.webp);
+}
+.labs_test_section{
+    background-image: url(./assets/labs_test.webp);
+    background-size: cover;
+}
+.soil_work_section{
+    background-image: url(./assets/soil_work.jpeg);
+    background-size: cover;
+}
+.service_para{
+    font-family: "Titillium Web", sans-serif;
+    font-size: larger;
+}
+

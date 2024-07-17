@@ -1,0 +1,11 @@
+.table_head{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+@media (max-width:480px) {
+    .gayab{
+        display: none;
+    }
+    
+}

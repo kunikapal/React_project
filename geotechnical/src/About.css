@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+.about_div{
+    margin-top: 110px;
+}
+.about1_section{
+    background-image: url(./assets/about_back.webp);
+    
+}
+.about1_div{
+    padding: 150px 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 1;
+}
+
+.about_us{
+    background-color: aliceblue;
+    padding: 50px 30px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    text-align: center;
+}
+.about1_head{
+    display: inline-block;
+    animation-duration: 3s;
+    animation-name: growshrink;
+    font-size: 40px;
+    font-family: "Baskervville SC", serif;
+    font-weight: 600;
+
+}
+  
+@keyframes slidein {
+    from {
+      translate: 50vw 0;
+      scale: 100% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+}
+  
+@keyframes growshrink {
+    25%,
+    75% {
+      scale: 100%;
+    }
+  
+    50% {
+      scale: 200%;
+      color: rgb(15, 106, 243);
+    }
+}
+.background-circle {
+    position: fixed;
+    top: 75%;
+    left: 0;
+    width: 350pc;
+    height: 270px;
+    /* background-color: rgba(129, 255, 255, 0.2); */
+    border-radius: 50% 30%;
+    transform: translateY(-50%);
+    z-index: -99;
+    animation: moveLeftRight 50s linear infinite;
+}
+.image_class{
+    opacity: 0.3;
+    z-index: -99;
+}
+.about3_section .container{
+    padding: 70px 10px;
+}
+.about3_head{
+    font-family: "Baskervville SC", serif;
+    font-weight: 600;
+}
+.about3_para{
+    line-height: 25px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: larger;
+}
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(0) translateY(-120%);
+        border-radius: 50% 45%;
+
+    }
+    50% {
+        transform: translateX(90vw) translateY(-70%);
+        border-radius: 45% 50%;
+
+    }
+    100% {
+        transform: translateX(0vw) translateY(-10%);
+        border-radius: 50% 40%;
+
+    }
+}
